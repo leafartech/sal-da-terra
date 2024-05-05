@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.play {
+    font-family: "Playfair Display", serif;
+}
+
+.radial {
+  background: var(--sty, radial-gradient(90.55% 128.49% at -13.13% -10.94%, #478F9D 0%, #193237 67.79%));
+}
+.radial-2 {
+  background: radial-gradient(116.47% 145.66% at 124.22% -25.97%, #478F9D 0%, #193237 67.79%);
+}
+.radial-3 {
+  background: radial-gradient(56.94% 185.49% at 127.3% 142.07%, #478F9D 0%, #193237 86.89%);
+}
+.radial-4 {
+  background: radial-gradient(238.69% 151.72% at -22.85% 10%, #478F9D 0%, #193237 37%);
+}

@@ -58,8 +58,8 @@ export default function Page() {
           <div className="flex flex-col items-center text-center gap-8">
             <div className="flex flex-col items-center text-left sm:text-center gap-6">
               <h2 className="play text-3xl sm:text-4xl font-bold text-deep-blue max-w-2xl"><span className="text-orange">Sal da terra agronegócios</span> 8 benefícios de você ser nosso parceiro</h2>
-              <div className="sm:px-4 sm:py-6 sm:border-x-[12px] sm:border-[#BCB57F] max-w-4xl">
-                <ul className="flex flex-col gap-4 sm:gap-8">
+              <div className="sm:px-4 sm:py-6 w-full max-w-4xl">
+                <ul className="flex flex-col gap-4">
                   <ListItem
                     title="Mitigação e redução dos Riscos de Mercado: "
                   >
@@ -117,10 +117,18 @@ export default function Page() {
                 height={401}
               />
             </div>
+            <div className="block sm:hidden">
+              <Image
+                src="/images/circle2.png"
+                alt="Imagem que representa as 3 formas de ajuda"
+                width={330}
+                height={330}
+              />
+            </div>
             <ul className="w-full block sm:hidden text-xl font-semibold play list-disc list-inside">
+              <li>Assessoria de metodologia Hedge</li>
               <li>Treinamento</li>
               <li>Consultoria em Grupo/Fórum</li>
-              <li>Assessoria de metodologia Hedge</li>
             </ul>
           </div>
         </Section>
@@ -135,12 +143,12 @@ export default function Page() {
                   height={164}
                 />
               </div>
-              <div className="flex flex-col gap-4">
-                <h4 className="font-semibold text-lg sm:text-xl">Entre em contato com a <span className="text-orange">Sal da Terra Agronegócios</span> hoje mesmo!</h4>
-                <h2 className="play text-3xl sm:text-4xl font-bold max-w-4xl">Deixe-nos ajudar você a <span className="text-orange">proteger e maximizar os frutos</span> do seu trabalho. Porque quando o assunto é o seu futuro, cada detalhe conta.</h2>
+              <div className="flex flex-col items-center gap-2">
+                <h4 className="play font-semibold text-3xl sm:text-4xl max-w-5xl">Entre em contato com a <span className="text-orange">Sal da Terra Agronegócios</span> hoje mesmo!</h4>
+                <h2 className="text-xl font-bold max-w-3xl">Deixe-nos ajudar você a <span className="text-orange">proteger e maximizar os frutos</span> do seu trabalho. Porque quando o assunto é o seu futuro, cada detalhe conta.</h2>
               </div>
-              <div className="mt-2 flex flex-col gap-4">
-                <p className="tracking-wide">Acesse o botão abaixo e entre em contato diretamente conosco:</p>
+              <div className="flex flex-col items-center gap-2 max-w-3xl">
+                <p className="text-xl mb-2">Acesse o botão abaixo e entre em contato diretamente conosco:</p>
                 <Button />
               </div>
             </div>
@@ -186,9 +194,9 @@ export default function Page() {
           className=""
         >
           <div className="flex flex-col gap-6 sm:gap-12">
-            <h2 className="play text-3xl sm:text-4xl font-bold text-deep-blue max-w-2xl">Nossas <span className="text-orange">redes sociais</span></h2>
+            <h2 className="play text-3xl sm:text-4xl font-bold text-deep-blue max-w-2xl">Nossas <span className="text-orange">contatos</span></h2>
             <div className="flex flex-col gap-2">
-              <div className="flex items-center gap-4">
+              <a href="https://api.whatsapp.com/send?phone=5542988113456&text=Ol%C3%A1%20Evandro,%20tudo%20bem?%20" className="flex items-center gap-4">
                 <div className="relative flex items-center justify-center h-10 w-10 rounded-full bg-[#bcb57f]">
                   <Image
                     src="/images/social/phone.png"
@@ -198,9 +206,9 @@ export default function Page() {
                     className="absolute"
                   />
                 </div>
-                <p className="text-lg text-deep-blue font-semibold">(42) 99998811-3456</p>
-              </div>
-              <div className="flex items-center gap-4">
+                <p className="text-lg text-blue-600 underline font-semibold">(42) 9 8811-3456</p>
+              </a>
+              <a href="https://www.instagram.com/saldaterra.agronegocios/" className="flex items-center gap-4">
                 <div className="relative flex items-center justify-center h-10 w-10 rounded-full bg-[#bcb57f]">
                   <Image
                     src="/images/social/ig.png"
@@ -210,8 +218,8 @@ export default function Page() {
                     className="absolute"
                   />
                 </div>
-                <p className="text-lg text-deep-blue font-semibold">@saldaterra.agronegocios</p>
-              </div>
+                <p className="text-lg text-blue-600 underline font-semibold">@saldaterra.agronegocios</p>
+              </a>
               <div className="flex items-center gap-4">
                 <div className="relative flex items-center justify-center h-10 w-10 rounded-full bg-[#bcb57f]">
                   <Image

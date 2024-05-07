@@ -5,8 +5,8 @@ export default function Header() {
     return (
         <header className="sm:h-screen w-full radial flex sm:flex-row flex-col overflow-hidden">
             <div className="relative sm:w-1/2 h-full w-white flex items-center">
-                <div className="max-w-3xl">
-                    <div className="relative xl:absolute top-4 left-12 w-[85px] h-[74px]">
+                <div className="max-w-3xl sm:block flex flex-col items-center">
+                    <div className="relative xl:absolute top-4 sm:left-12 w-[85px] h-[74px]">
                         <Image
                             src="/images/logo.png"
                             alt="Imagem de fundo de grande fazendeiro de soja"

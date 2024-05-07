@@ -23,7 +23,7 @@ export default function Page() {
               height={482}
             />
             <div className="flex flex-col items-center text-left sm:text-center gap-2 max-w-4xl">
-              <p className="sm:text-xl">Com nossas <strong>estratégias personalizadas, fundamentadas em análises aprofundadas</strong>, você ganha controle sobre suas finanças, assegurando não só a sobrevivência, mas também a <strong>prosperidade em um mercado global competitivo</strong>.</p>
+              <p className="sm:text-xl">Com nossas estratégias personalizadas, você ganha controle e maior estabilidade, assegurando a <strong>sobrevivência e o CRESCIMENTO</strong> do seu negócio</p>
               <p className="sm:text-xl">Esqueça as soluções genéricas que prometem muito e entregam pouco. <span className="text-orange"><strong>Opte pela Sal da Terra</strong></span>, onde o <strong>seu sucesso é a nossa maior prioridade</strong>.</p>
               <p className="sm:text-xl">Consulte <strong>nossos especialistas</strong> hoje mesmo e transforme incertezas em estabilidade duradoura.</p>
             </div>
@@ -57,7 +57,7 @@ export default function Page() {
         <Section className="py-12 sm:py-20 px-4">
           <div className="flex flex-col items-center text-center gap-8">
             <div className="flex flex-col items-center text-left sm:text-center gap-6">
-              <h2 className="play text-3xl sm:text-4xl font-bold text-deep-blue max-w-2xl"><span className="text-orange">Sal da terra agronegócios</span> 8 benefícios de você ser nosso parceiro</h2>
+              <h2 className="play text-3xl sm:text-4xl font-bold text-deep-blue max-w-2xl">8 benefícios de você ser nosso parceiro</h2>
               <div className="sm:px-4 sm:py-6 w-full max-w-4xl">
                 <ul className="flex flex-col gap-4">
                   <ListItem
@@ -108,7 +108,7 @@ export default function Page() {
         </Section>
         <Section className="pb-12 sm:pb-20 px-4">
           <div className="flex flex-col items-center text-left sm:text-center gap-4 sm:gap-6">
-            <h2 className="play text-3xl sm:text-4xl font-bold text-deep-blue max-w-2xl">Iremos te ajudr de <span className="text-orange">3 formas</span> diferentes</h2>
+            <h2 className="play text-3xl sm:text-4xl font-bold text-deep-blue max-w-2xl">Iremos te ajudar de <span className="text-orange">3 formas</span> diferentes</h2>
             <div className="hidden sm:block">
               <Image
                 src="/images/circle.png"
@@ -194,7 +194,7 @@ export default function Page() {
           className=""
         >
           <div className="flex flex-col gap-6 sm:gap-12">
-            <h2 className="play text-3xl sm:text-4xl font-bold text-deep-blue max-w-2xl">Nossas <span className="text-orange">contatos</span></h2>
+            <h2 className="play text-3xl sm:text-4xl font-bold text-deep-blue max-w-2xl">Nossos <span className="text-orange">contatos</span></h2>
             <div className="flex flex-col gap-2">
               <a href="https://api.whatsapp.com/send?phone=5542988113456&text=Ol%C3%A1%20Evandro,%20tudo%20bem?%20" className="flex items-center gap-4">
                 <div className="relative flex items-center justify-center h-10 w-10 rounded-full bg-[#bcb57f]">

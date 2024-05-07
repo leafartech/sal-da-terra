@@ -23,7 +23,7 @@ export default function Page() {
               height={482}
             />
             <div className="flex flex-col items-center text-left sm:text-center gap-2 max-w-4xl">
-              <p className="sm:text-xl">Com nossas estratégias personalizadas, você ganha controle e maior estabilidade, assegurando a <strong>sobrevivência e o CRESCIMENTO</strong> do seu negócio</p>
+              <p className="sm:text-xl">Com nossas estratégias personalizadas, você ganha controle e maior estabilidade, assegurando a <strong>sobrevivência e o CRESCIMENTO</strong> do seu negócio.</p>
               <p className="sm:text-xl">Esqueça as soluções genéricas que prometem muito e entregam pouco. <span className="text-orange"><strong>Opte pela Sal da Terra</strong></span>, onde o <strong>seu sucesso é a nossa maior prioridade</strong>.</p>
               <p className="sm:text-xl">Consulte <strong>nossos especialistas</strong> hoje mesmo e transforme incertezas em estabilidade duradoura.</p>
             </div>

@@ -20,3 +20,11 @@
 .radial-4 {
   background: radial-gradient(238.69% 151.72% at -22.85% 10%, #478F9D 0%, #193237 37%);
 }
+
+@media (max-width: 332px) {
+  .wrap {
+    align-items: start;
+    flex-direction: column;
+    gap: 0;
+  }
+}

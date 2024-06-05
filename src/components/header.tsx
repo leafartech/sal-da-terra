@@ -15,9 +15,29 @@ export default function Header() {
                         />
                     </div>
                     <div className="flex flex-col items-start gap-4 text-white px-4 py-6 sm:p-6 xl:p-12">
-                        <h2 className="text-2xl xl:text-3xl play font-bold leading-8">Interrompa as perdas financeiras causadas pelas <span className="text-orange">flutuações do dólar</span> e pela <span className="text-orange">queda da soja em Chicago</span> e comece a ignorar os conselhos superficiais de consultores de mercado </h2>
-                        <p className="opacity-80 xl:text-lg">Na Sal da Terra, nós <strong>convertemos a volatilidade do mercado em oportunidades de crescimento para o teu negócio</strong>. Proteja os riscos da sua produção e <strong>capacite-se com estratégias de Hedge precisas e avançadas</strong> para tomar decisões estratégicas com <strong>total confiança e segurança</strong>.</p>
+                        <h2 className="text-2xl xl:text-3xl play font-bold leading-8">Proteja a sua produção contra os riscos de mercado e aumente em até <span className="text-orange">50% a mais a sua margem financeira</span> através do <span className="text-orange">Método HedgePro®</span></h2>
+                        <p className="opacity-80 xl:text-lg">Utilize uma metodologia de vendas semelhante à utilizada pelos maiores produtores do Brasil e descubra como as oscilações do mercado podem favorecer o seu negócio.</p>
                         <Button />
+                        <ul className="flex flex-col gap-1 opacity-80 text-sm">
+                            <li className="">
+                                <h4>+ 9 Anos de experiência em Gestão de Risco</h4>
+                            </li>
+                            <li className="">
+                                <h4>+ R$ 2 Bilhões de crédito liberados</h4>
+                            </li>
+                            <li className="">
+                                <h4>+ R$ 2 Milhões de toneladas de Soja (físico) originados</h4>
+                            </li>
+                            <li className="">
+                                <h4>+ 150 Mil hectares protegidos através de Consultoria Direta e Indireta</h4>
+                            </li>
+                            <li className="">
+                                <h4>+ 80 grupos impactados</h4>
+                            </li>
+                            <li className="">
+                                <h4>+ 1 Mil Contratos de Derivativos negociados</h4>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>

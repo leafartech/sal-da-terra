@@ -13,7 +13,7 @@ export function Button() {
                 height={20}
                 className="hidden sm:block"
             />
-            <span>Entre em contato conosco <span className="hidden sm:inline-block">agora mesmo!</span></span>
+            <span>Quero falar com um <span className="hidden sm:inline-block">consultor!</span></span>
         </a>
     )
 }
